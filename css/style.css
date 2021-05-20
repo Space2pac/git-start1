@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+ 
+
+/* header start */
+
+.header{
+    min-height: 100vh;
+    background: dodgerblue;
+}
+
+.header__nav {
+    padding: 20px 0;
+}
+
+.header__container {
+      display: flex;
+      justify-content: space-between;
+         align-items: center;
+  }
+  
+  .header__list {
+      display: flex;
+   
+  }
+
+  .header__logo {
+      color: #fff;
+      font-size: 36px;
+      text-transform: uppercase;
+  }
+  
+  .header__link {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+    text-align: center;
+  
+  }
+  
+  .header__content{
+      text-transform: capitalize;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  
+  .header__title{
+      font-size: 100px;
+      color: rgba(190, 190, 90, .9);
+      text-shadow: 0 0  15px grey, 0 0 15px gainsboro;
+  }
+  
+  .header__txt {
+      font-size:22px;
+    color: sandybrown;
+    text-shadow: 0 0 20px darkgray, 0 0 10px wheat;
+    }
+  
+/* header end */
